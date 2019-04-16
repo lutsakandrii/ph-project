@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 /* Navbar */
-=======
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
   color: black;
   z-index: 2;
@@ -19,7 +17,6 @@
   top: 48px;
   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.788); 
 }
-<<<<<<< HEAD
 
 /* Footer */
 .main-footer{
