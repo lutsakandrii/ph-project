@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-size: 14px;
+  color: black; }
+  .navigation-item {
+    flex: 1; }
+
+.accordion {
+  display: none; }
+
+.slider-main {
+  height: calc(100vh - 100px); }

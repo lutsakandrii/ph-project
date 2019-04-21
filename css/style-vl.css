@@ -1,0 +1,132 @@
+/* Navbar */
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: black;
+  z-index: 2;
+}
+.default-color {
+  background-color: rgba(255, 255, 255, 0.226) !important;
+  z-index: 2;
+}
+.navbar {
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.788);
+  z-index: 999;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.226);
+  min-width: 0px;
+  top: 48px;
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.788); 
+}
+
+.bg-light {
+  background-color: #e0e0e000!important;
+}
+
+/* Footer */
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  
+
+}
+.img-footer img {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-footer {
+  flex-grow: 1;
+  background-color: rgba(230, 230, 230, 0);
+}
+.hr-left {
+  position: absolute;
+  top: 30%;
+  right: 56%;
+  width: 50%;
+}
+
+.hr-right {
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  left: 56%;
+  
+}
+
+.contact-footer{
+  background-color: rgb(230, 230, 230);
+  flex-grow: 9;
+  display: flex;
+  flex-direction: column;
+}
+.main-footer .contact-footer a:link{
+  color: black;
+}
+.main-footer .contact-footer a:visited{
+  color: black;
+}
+.main-footer .contact-footer a:active{
+  color: black;
+}
+.sub-contact-footer > div{
+  padding: 10px;
+}
+.sub-contact-footer{
+  max-width: 300px;
+  margin: auto;
+}
+.fas{
+  font-size: 30pt;
+}
+a .fab{
+  font-size: 30pt;
+}
+.col div{
+  text-align: center;
+  font-size: 18pt;
+}
+a:active{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: rgba(0, 0, 0, 0.63);
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.contacts{
+  padding: 20px;
+  margin-top: 15%;
+}
+
+/* .navigation .navigation-item{
+  font-size: 20pt;
+  text-align: center;
+  color: black;
+}
+.navigation{
+  background-color: rgb(255, 253, 246);
+}
+.accordion {
+  background-color: rgba(255, 253, 246);
+}
+.accordion .accordion-item{
+  color: black;
+  font-size: 14pt;
+  margin: 10px;
+}
+nav{
+  border-bottom: 2px solid black;
+
+} */

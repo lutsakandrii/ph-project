@@ -42,6 +42,16 @@
     href="css/style.css"
     rel="stylesheet"
   ></link>
+  
+  <!-- <link
+    href="css/style-vl.css"
+    rel="stylesheet"
+  ></link> -->
+  
+  <link
+    href="build/css/style.css"
+    rel="stylesheet"
+  ></link>
 
   <link
     rel="stylesheet"
@@ -69,9 +79,16 @@
   ></link>
 
   <!-- Animate.css -->
-  
-  <link rel="stylesheet" href="./css/animate/fadein.css">
-  <link rel="stylesheet" href="./css/animate/fadeupbig.css">
+
+  <link
+    rel="stylesheet"
+    href="./css/animate/fadein.css"
+  ></link>
+
+  <link
+    rel="stylesheet"
+    href="./css/animate/fadeupbig.css"
+  ></link>
 
   <!-- /Animate.css -->
 </head>
@@ -80,7 +97,93 @@
   <!-- Start your project here -->
   <!-- Navbar -->
 
-  <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color animated fadeIn">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    ></button>
+
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a
+            class="nav-link"
+            href="./index.html"
+          >Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >Portfolio</a>
+
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbarDropdown"
+          >
+            <a
+              class="dropdown-item"
+              href="./weding/index-weding.html"
+            >Wedding</a>
+
+            <a
+              class="dropdown-item"
+              href="#"
+            >Family</a>
+
+            <a
+              class="dropdown-item"
+              href="#"
+            >Love story</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="#"
+          >Contacts</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="#"
+          >Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <nav>
+    <div class="navigation">
+      <div class="navigation-item">Home</div>
+      <div id="portfolio" class="navigation-item">Portfolio</div>
+      <div class="navigation-item">Contacts</div>
+      <div class="navigation-item">Blog</div>
+    </div>
+  </nav>
+
+  <div class="accordion">
+    <a href="./weding/index-weding.html">Wedding</a>
+    <div>Love</div>
+    <div>Family</div>
+  </div> -->
+  <!-- <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color animated fadeIn">
     <button
       class="navbar-toggler"
       type="button"
@@ -118,11 +221,15 @@
             aria-expanded="false"
           >
             Портфоліо
-
+drop-down
             <div
               class="dropdown-menu dropdown-default"
               aria-labelledby="navbarDropdownMenuLink-333"
             >
+              <a
+                class="dropdown-item"
+                href="#"
+              >Весілля 1212</a>
               <a
                 class="dropdown-item"
                 href="#"
@@ -185,157 +292,150 @@
         </li>
       </ul>
     </div>
-  </nav>
-
+  </nav> -->
   <!-- /.Navbar -->
-  <!-- Slider-->
+  <!-- Slider -->
 
-    <div>
-      <div class="split-slideshow">
-        <div class="slideshow">
-          <div class="slider">
-            <div class="item">
-              <img src="./images/img_1.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_2.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_3.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_4.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_5.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_6.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_7.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_8.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_9.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_10.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_11.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_12.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_13.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_14.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_15.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_16.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_17.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_18.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_19.jpg">
-            </div>
-
-            <div class="item">
-              <img src="./images/img_20.jpg">
-            </div>
+  <div>
+    <div class="split-slideshow">
+      <div class="slideshow">
+        <div class="slider">
+          <div class="item">
+            <img src="./images/img_1.jpg">
           </div>
-        </div>
 
-        <div class="slideshow-text">
-          <div class="item">Wedding</div>
+          <div class="item">
+            <img src="./images/img_2.jpg">
+          </div>
 
-          <div class="item">Family</div>
+          <div class="item">
+            <img src="./images/img_3.jpg">
+          </div>
 
-          <div class="item">Love Story</div>
+          <div class="item">
+            <img src="./images/img_4.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_5.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_6.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_7.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_8.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_9.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_10.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_11.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_12.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_13.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_14.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_15.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_16.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_17.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_18.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_19.jpg">
+          </div>
+
+          <div class="item">
+            <img src="./images/img_20.jpg">
+          </div>
         </div>
       </div>
     </div>
-    <!-- /Slider-->
-    <!-- Footer -->
+  </div>
 
-    <footer>
-      <div class="main-footer animated fadeInUpBig">
-        <div class="img-footer">
-          <hr class="hr-left">
-          <hr class="hr-right">
+  <!-- /Slider -->
+  <!-- Footer -->
 
-          <img
-            src="./footer/LOGOIRYNA.png"
-            alt=""
-          >
-        </div>
+  <footer>
+    <div class="main-footer animated fadeInUpBig">
+      <div class="img-footer">
+        <hr class="hr-left">
+        <hr class="hr-right">
+
+        <img
+          src="./footer/LOGOIRYNA.png"
+          alt=""
+        >
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- /Footer -->
-    <!-- /Start your project here -->
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
+  <!-- /Footer -->
+  <!-- /Start your project here -->
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
 
-    <script
-      type="text/javascript"
-      src="js/jquery-3.3.1.min.js"
-    ></script>
+  <script
+    type="text/javascript"
+    src="js/jquery-3.3.1.min.js"
+  ></script>
 
-    <!-- Bootstrap tooltips -->
+  <!-- Bootstrap tooltips -->
 
-    <script
-      type="text/javascript"
-      src="js/popper.min.js"
-    ></script>
+  <script
+    type="text/javascript"
+    src="js/popper.min.js"
+  ></script>
 
-    <!-- Bootstrap core JavaScript -->
+  <!-- Bootstrap core JavaScript -->
 
-    <script
-      type="text/javascript"
-      src="js/bootstrap.min.js"
-    ></script>
+  <script
+    type="text/javascript"
+    src="js/bootstrap.min.js"
+  ></script>
 
-    <!-- MDB core JavaScript -->
+  <!-- MDB core JavaScript -->
 
-    <script
-      type="text/javascript"
-      src="js/mdb.js"
-    ></script>
+  <script
+    type="text/javascript"
+    src="js/mdb.js"
+  ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-    <script src="./js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>

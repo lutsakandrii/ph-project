@@ -1,0 +1,18 @@
+.container-grid {
+   display: block;
+   width: 100vw;
+   border: 1px solid black;
+   height: 667px;
+  }
+
+  .block1 {
+    margin: auto;
+    max-width: 100%;
+    max-width: 70%;
+
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
