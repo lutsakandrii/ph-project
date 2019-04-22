@@ -1,0 +1,28 @@
+.fas{
+  font-size: 30pt;
+}
+a .fab{
+  font-size: 30pt;
+}
+.col div{
+  text-align: center;
+  font-size: 18pt;
+}
+a:active{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: rgba(0, 0, 0, 0.63);
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.contacts{
+  padding: 20px;
+  margin-top: 15%;
+}

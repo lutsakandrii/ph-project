@@ -16,7 +16,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.226);
+  background-color: rgb(255, 255, 255);
   min-width: 0px;
   top: 48px;
   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.788); 
@@ -110,6 +110,10 @@ body {
   }
   .row {
     margin: 0;
+  }
+
+  .col-md-12 {
+    margin-top: 55px;
   }
 }
 
